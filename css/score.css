@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8b4b4;
+    text-align: center;
+    padding: 50px;
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.team {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 200px;
+    background-color: #ea1f1f;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.team h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.score {
+    font-size: 48px;
+    margin: 20px 0;
+}
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.controls {
+    margin-top: 20px;
+}

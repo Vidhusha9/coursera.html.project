@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="css/score.css">
+</head>
+<body>
+    <h1>Basketball Scoreboard</h1>
+    <div class="scoreboard">
+        <div class="team" id="team1">
+            <h2>Team 1</h2>
+            <div class="score" id="score1">0</div>
+            <button onclick="changeScore('team1', 1)">+1</button>
+            <button onclick="changeScore('team1', 2)">+2</button>
+            <button onclick="changeScore('team1', 3)">+3</button>
+            <button onclick="changeScore('team1', -1)">-1</button>
+        </div>
+        <div class="team" id="team2">
+            <h2>Team 2</h2>
+            <div class="score" id="score2">0</div>
+            <button onclick="changeScore('team2', 1)">+1</button>
+            <button onclick="changeScore('team2', 2)">+2</button>
+            <button onclick="changeScore('team2', 3)">+3</button>
+            <button onclick="changeScore('team2', -1)">-1</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button onclick="resetScores()">Reset Scores</button>
+    </div>
+
+    <script src="js/scoreboard.js"></script>
+</body>
+</html>
